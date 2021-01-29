@@ -1,0 +1,45 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[margin=1cm]{caption}
+\captionsetup[figure]{font=footnotesize, labelfont=footnotesize}
+\usepackage{wrapfig}
+\usepackage{parskip}
+\usepackage[danish]{babel}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage{gensymb}
+\usepackage{float}
+\usepackage{chemfig}
+\usepackage{chemformula}
+\usepackage{siunitx}
+\usepackage{fancyhdr}
+\graphicspath{{IMAGES/}}
+\usepackage[margin=1in]{geometry}
+%\usepackage[backend=biber, style=authortitle-ibid]{biblatex}
+%\addbibresource{sop.bib}
+\usepackage[nottoc,numbib]{tocbibind}
+\renewcommand{\baselinestretch}{1.5}
+
+\title{(<>)}
+\author{Af: Rasmus Hauge Hansen, 3.A OTG}
+\date{Afleveringsdato: (<>)}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Rasmus Hauge Hansen. 3.A OTG}
+\lhead{(<>)}
+\rfoot{Side \thepage \ af }
+\begin{document}
+	\setcounter{secnumdepth}{0}
+	\maketitle
+	\thispagestyle{empty}
+	\newpage
+
+	\tableofcontents
+	\newpage
+
+	\section{(<>)}
+
+	(<>)
+	
+\end{document}
